@@ -10,7 +10,7 @@ const answer = getWordOfTheDay()
 // Board state. Each tile is represented as { letter, state }
 const board = $ref(
   Array.from({ length: 6 }, () =>
-    Array.from({ length: 5 }, () => ({
+    Array.from({ length: 6 }, () => ({
       letter: '',
       state: LetterState.INITIAL
     }))
